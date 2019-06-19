@@ -10,7 +10,7 @@
         "name": "Default Value",
         "description": "Set which setting is the default",
         "type": "Boolean",
-        "options": ["true", "false"],
+        "options": [{true: "true"},{false: "false"}],
         "labels": {"empty": "Choose a value"},
         "required": true
       }
