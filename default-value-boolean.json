@@ -1,0 +1,19 @@
+{
+  "id": "default-field-value",
+  "name": "Default value for a field",
+  "srcdoc": "extension.html",
+  "fieldTypes": ["Boolean"],
+  "parameters": {
+    "instance": [
+      {
+        "id": "defaultBool",
+        "name": "Default Value",
+        "description": "Set which setting is the default",
+        "type": "Boolean",
+        "options": [{true}, {false}],
+        "labels": {"empty": "Choose a value"},
+        "required": true
+      }
+    ]
+  }
+}
