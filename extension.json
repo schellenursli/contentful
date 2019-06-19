@@ -1,16 +1,16 @@
 {
   "id": "default-field-value",
   "name": "Default value for a field",
-  "srcdoc": "default-value-boolean.html",
-  "fieldTypes": ["Boolean"],
+  "srcdoc": "extension.html",
+  "fieldTypes": ["Symbol"],
   "parameters": {
     "instance": [
       {
-        "id": "defaultBool",
-        "name": "Default Value",
-        "description": "Set which setting is the default",
+        "id": "defaultValue",
+        "name": "Default value",
+        "description": "Set default value",
         "type": "Boolean",
-        "options": [{"true"},{"false"}],
+        "options": [{"0": "false"}, {"1": "true"}],
         "labels": {"empty": "Choose a value"},
         "required": true
       }
